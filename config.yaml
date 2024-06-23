@@ -168,12 +168,12 @@ params:
           enable: true
           name: "Vollständiges Profil auf smooth-collie.net"
           url: "https://www.smooth-collie.net/view.php?id=24621"
-      - title: "Beschäftigung"
-        content: |-
-          Extra beschreibung
-      - title: "Wesen"
-        content: |-
-          Extra beschreibung
+      # - title: "Beschäftigung"
+      #   content: |-
+      #     Extra beschreibung
+      # - title: "Wesen"
+      #   content: |-
+      #     Extra beschreibung
 
   # Achievements
   achievements:
