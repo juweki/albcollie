@@ -242,17 +242,22 @@ params:
     items:
       - title: Clubjugendsieger
         content: 09.09.2023
-        #url: https://example.com
         image: /images/clubjugendsieger.jpg
       - title: Begleithunde-Prüfung
         content: 04.05.2024
-        #url: https://example.com
         image: /images/bh.jpg
       - title: Körung/Körklasse 1
         content: 08.06.2024
         url: /images/Koerung.jpg
         image: /images/Koerung.jpg
-
+      - title: Deutscher Champion (VDH)
+        content: 11.06.2024
+        url: /images/Deutscher_Champion_VDH.jpg
+        image: /images/Deutscher_Champion_VDH.jpg
+      - title: Schweizer Ausstellungs-Champion
+        content: 23.06.2024
+        url: /images/Swiss_Show_Champion.jpg
+        image: /images/Swiss_Show_Champion.jpg
   # projects
   projects:
     enable: false
