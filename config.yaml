@@ -1,0 +1,313 @@
+baseURL: "https://alb-collie.de"
+languageCode: "de-de"
+title: "Alb Collie"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1 
+    - identifier: gallery
+      name: Galerie
+      title: Galerie
+      url: /gallery
+      weight: 1
+    - identifier: impressum
+      name: Impressum
+      title: Impressum
+      url: /impressum
+      weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Alb Dogs"
+  description: "Scotty der Kurzhaar Collie von der Alb"
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+  
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Alb Collie" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hallo, ich bin"
+    title: "Scotty"
+    #subtitle: "Deckrüde, Hofnarr"
+    content: "Mein vollständiger Name lautet »Kalalassie’s Pop Rocks Blue Razz«.
+    <br>Ich bin Deckrüde im Club für britische Hütehunde und stehe passenden Hündinnen zur Verfügung."
+    image: /images/A21A2374.jpg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    # button:
+    #   enable: true
+    #   name: "Resume"
+    #   url: "#"
+    #   download: true
+    #   newPage: false
+    # socialLinks:
+    #   fontAwesomeIcons:
+    #     - icon: fab fa-github
+    #       url: https://example.com
+    #     - icon: fab fa-x-twitter
+    #       url: https://example.com
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "Über mich"
+    image: "/images/A21A2351.jpg"
+    content: |-
+      Ich bin am 17.07.2022 in Hardt-Nürtingen bei meiner Züchterin Cordula Weiß geboren.
+      Meine ersten 8 Wochen verbrachte ich mit 6 Geschwistern und einigen Collie-Tanten behütet bei Familie Weiß.
+
+      Am 11.09.2022 zog ich nach Killer auf die schwäbischen Alb zu Familie Weiler.
+      Im Haushalt leben meine zwei Futterspender, ein kleines Mädchen und die Grand Dame Quinnie (Zwergschauzer).
+    skills:
+      enable: true
+      title: "Was ich mag:"
+      items:
+        - "Stöcke"
+        - "Kinder"
+        - "Schlafen"
+        - "Garten"
+        - "Quatsch"
+        - "Ausflüge"
+    skills2:
+      enable: true
+      title: "Was ich nicht mag:"
+      items:
+        - "Wasser"
+        - "Bananen"
+  # Experience
+  experience:
+    enable: false
+    # title: "Custom Name"
+    # items:
+    #   - job: "Senior Software Developer"
+    #     company: "Facebook"
+    #     companyUrl: "https://example.com"
+    #     date: "Jan 2022 - present"
+    #     featuredLink:
+    #       enable: true
+    #       name: "View the project"
+    #       url: "https://example.com"
+    #     content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+  # Education
+  education:
+    enable: true
+    title: "Allgemeines"
+    index: false
+    items:
+      - title: "Stammbaum"
+        # school:
+        #   name: ""
+        #   url: ""
+        content: |-
+          Vater: Kalalassie’s just one more\
+          Mutter: Basiums fleur de lys bleue vom Widdumhof
+        featuredLink:
+          enable: true
+          name: "Zwinger: Kalalassie's Smooth Collies P-Wurf"
+          url: "https://kalalassies.de/18231-2/"
+      - title: "Gesundheitsdaten"
+        content: |-
+          - CEA non-carrier (Laboklin)
+          - PRA-rcd2 non-carrier (Laboklin)
+          - MDR1 +/+ (Laboklin)
+          - DM N/N (Laboklin)
+          - IPD N/N (Laboklin)
+          - DMS aabbCC (Laboklin)
+          - M-Locus (Merle) m/M - 267 bp (Laboklin)
+          - HD A
+          - Eyes clear (20.08.23)
+          - pure for smooth (Laboklin)
+        featuredLink:
+          enable: true
+          name: "Vollständiges Profil auf smooth-collie.net"
+          url: "https://www.smooth-collie.net/view.php?id=24621"
+      - title: "Beschäftigung"
+        content: |-
+          Extra beschreibung
+      - title: "Wesen"
+        content: |-
+          Extra beschreibung
+
+  # Achievements
+  achievements:
+    enable: true
+    title: "Erfolge"
+    items:
+      - title: Clubjugendsieger
+        content: 09.09.2023
+        #url: https://example.com
+        image: /images/clubjugendsieger.jpg
+      - title: Begleithunde-Prüfung
+        content: 04.05.2024
+        #url: https://example.com
+        image: /images/bh.jpg
+      - title: Körung/Körklasse 1
+        content: 08.06.2024
+        #url: https://example.com
+        image: /images/achievment.jpg
+
+  # projects
+  projects:
+    enable: false
+
+  #Contact
+  contact:
+    enable: true
+    title: "Kontakt"
+    content: Hast du Fragen? Bist eine freundliche Collie-Dame auf der Suche nach einem passenden Partner? Dann melde dich bei mir. Ich freu mich immer über Nachrichten.
+    email: mail@juliaweiler.de
+    btnName: Email
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Aktuelles
+      enable: false
+      disableFeaturedImage: false
+    #socialNetworks:
+      #github: https://github.com
+      #linkedin: https://linkedin.com
+      #twitter: https://twitter.com
+      #instagram: https://instagram.com
+      #facebook: https://facebook.com/julia.weiler38
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
