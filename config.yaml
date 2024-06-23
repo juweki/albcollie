@@ -133,7 +133,7 @@ params:
     #subtitle: "Deckrüde, Hofnarr"
     content: "Mein vollständiger Name lautet »Kalalassie’s Pop Rocks Blue Razz«.
     <br>Ich bin Deckrüde im Club für britische Hütehunde und stehe passenden Hündinnen zur Verfügung."
-    image: /images/A21A2374.jpg
+    image: /images/A21A2374k.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -157,7 +157,7 @@ params:
   about:
     enable: true
     title: "Über mich"
-    image: "/images/A21A2351.jpg"
+    image: "/images/A21A2351k.jpg"
     content: |-
       Ich bin am 17.07.2022 in Hardt-Nürtingen bei meiner Züchterin Cordula Weiß geboren.
       Meine ersten 8 Wochen verbrachte ich mit 6 Geschwistern und einigen Collie-Tanten behütet bei Familie Weiß.
@@ -251,7 +251,7 @@ params:
       - title: Körung/Körklasse 1
         content: 08.06.2024
         #url: https://example.com
-        image: /images/achievment.jpg
+        image: /images/Koerung.jpg
 
   # projects
   projects:
