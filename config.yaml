@@ -250,7 +250,7 @@ params:
         image: /images/bh.jpg
       - title: Körung/Körklasse 1
         content: 08.06.2024
-        #url: https://example.com
+        url: /images/Koerung.jpg
         image: /images/Koerung.jpg
 
   # projects
