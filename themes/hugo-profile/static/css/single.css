@@ -143,7 +143,7 @@
 #single .page-content ol, #single .page-content ul {
     margin-bottom: 1.2em;
     padding-left: 1.5em;
-    list-style-position: inside;
+    list-style-position: outside;
     opacity: 0.9;
 }
 

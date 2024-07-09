@@ -34,11 +34,16 @@ Menus:
       title: Galerie
       url: /gallery
       weight: 1
+    - identifier: links
+      name: Links
+      title: Links
+      url: /links
+      weight: 2
     - identifier: impressum
       name: Impressum
       title: Impressum
       url: /impressum
-      weight: 2
+      weight: 3
 
 
 params:
