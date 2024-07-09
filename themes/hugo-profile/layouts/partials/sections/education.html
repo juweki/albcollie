@@ -1,8 +1,15 @@
 {{ if .Site.Params.education.enable | default false }}
-<section id="education" class="py-5">
+<section id="education" class="py-4">
     <div class="container">
         <h3 class="text-center">{{ .Site.Params.education.title | default "Education" }}</h3>
-        <div class="row justify-content-center py-5">
+        <!-- <div class="col-sm-12 col-md-12 col-md-6"> -->
+        <div class="row justify-content-center">
+            <div class="col-md-9 pt-lg-5 pt-3 image  text-center">
+                <img src="{{ .Site.Params.education.image }}" class="img-thumbnail mx-auto" alt="">
+            </div>
+        </div>
+        <!-- </div> -->
+        <div class="row justify-content-center py-4">
             {{ $indexMenu := .Site.Params.education.index }}
             {{ range $index, $element := .Site.Params.education.items }}
             <div class="col-12 p-0">

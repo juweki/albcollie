@@ -139,6 +139,7 @@ params:
   education:
     enable: true
     title: "Allgemeines"
+    image: "/images/allgemeines.jpg"
     index: false
     items:
       - title: "Stammbaum"
@@ -182,10 +183,12 @@ params:
     items:
       - title: Clubjugendsieger
         content: 09.09.2023
-        image: /images/clubjugendsieger.jpg
+        image: /images/clubjugendsiegerk.jpg
+        url: /images/clubjugendsieger.jpg
       - title: Begleithunde-Prüfung
         content: 04.05.2024
-        image: /images/bh.jpg
+        image: /images/bhk.jpg
+        url: /images/bh.jpg
       - title: Körung/Körklasse 1
         content: 08.06.2024
         url: /images/Koerung.jpg
@@ -200,8 +203,8 @@ params:
         image: /images/Swiss_Show_Champion.jpg
       - title: Deutscher Champion (CfBrH)
         content: 03.07.2024
-        url: /images/deutscher_champion _club.jpg
-        image: /images/deutscher_champion _club.jpg
+        url: /images/deutscher_champion_club.jpg
+        image: /images/deutscher_champion_club.jpg
   # projects
   projects:
     enable: false
