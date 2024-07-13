@@ -13,6 +13,10 @@ galleryImages:
   - src: ../images/A21A2374_169.jpg
   - src: ../images/A21A2358_32.jpg
   - src: ../images/A21A2407_32.jpg
+  - src: ../images/A21A7422.jpg
+  - src: ../images/A21A7467.jpg
+  - src: ../images/A21A7442-Verbessert-RR.jpg
+  - src: ../images/A21A7492.jpg
   - src: ../images/PXL_20230730_195807685_32.jpg
   - src: ../images/DSC_0335_32.jpg
   - src: ../images/DSC_0360_32.jpg

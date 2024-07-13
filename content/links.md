@@ -11,4 +11,7 @@ enableReadingTime: false
 
 
 * Professionelle Bilder dieser Homepage wurden von Michael Janz fotografiert [https://www.michael-janz-photographie.de/](https://www.michael-janz-photographie.de/)
-* Weitere
+* Züchterin von Scotty [Kalalassie´s](https://kalalassies.de/)
+* Club für britische Hütehunde [CfBrH](https://www.cfbrh.de/)
+* Scotty`s Profil bei der Database [Smooth Collie Database](https://www.smooth-collie.net/view.php?id=24621)
+
