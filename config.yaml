@@ -210,6 +210,10 @@ params:
         content: 03.07.2024
         url: /images/deutscher_champion_club.jpg
         image: /images/deutscher_champion_club.jpg
+      - title: Best of Breed in Luzern
+        content: 24.08.2024
+        url: /images/bob_luzern.jpg
+        image: /images/bob_luzern.jpg
   # projects
   projects:
     enable: false
