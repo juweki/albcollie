@@ -120,6 +120,9 @@ params:
 
       Am 11.09.2022 zog ich nach Killer auf die schwäbische Alb zu Familie Weiler.
       Im Haushalt leben meine zwei Futterspender, ein kleines Mädchen und die Grand Dame Quinnie (Zwergschnauzer).
+
+      In meiner Freizeit mache ich gerne mit meinem Frauchen zusammen Rally Obedience und Hoopers. 
+      Im Rally Obedience bin ich mittlerweile auch auf Turnieren anzutreffen. 
     skills:
       enable: true
       title: "Was ich mag:"
@@ -148,15 +151,12 @@ params:
     index: false
     items:
       - title: "Stammbaum"
-        # school:
-        #   name: ""
-        #   url: ""
         content: |-
           Vater: Kalalassie’s just one more\
           Mutter: Basiums fleur de lys bleue vom Widdumhof
         featuredLink:
           enable: true
-          name: "Zwinger: Kalalassie's Smooth Collies P-Wurf"
+          name: "Zuchtstätte: Kalalassie's Smooth Collies P-Wurf"
           url: "https://kalalassies.de/18231-2/"
       - title: "Gesundheitsdaten"
         content: |-
@@ -174,6 +174,14 @@ params:
           enable: true
           name: "Vollständiges Profil auf smooth-collie.net"
           url: "https://www.smooth-collie.net/view.php?id=24621"
+      - title: "Nachzucht"
+        content: |-
+          Zuchtstätte: Bumblebee Mountains\
+          Mutter: Bumblebee Mountains Florence le tourbillon "Floh"
+        featuredLink:
+          enable: true
+          name: "Zuchtstätte: Bumblebee Mountains"
+          url: "https://sheltieseite.de/"
       # - title: "Beschäftigung"
       #   content: |-
       #     Extra beschreibung
@@ -214,6 +222,14 @@ params:
         content: 24.08.2024
         url: /images/bob_luzern.jpg
         image: /images/bob_luzern.jpg
+      - title: Rally Obedience Beginner
+        content: 20.10.2024
+        url: /images/robeg.jpg
+        image: /images/robeg.jpg
+      - title: Best of Breed CACIB Metz
+        content: 10.11.2024
+        url: /images/bobmetz.jpg
+        image: /images/bobmetz.jpg
   # projects
   projects:
     enable: false
