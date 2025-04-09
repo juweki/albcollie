@@ -230,6 +230,10 @@ params:
         content: 10.11.2024
         url: /images/bobmetz.jpg
         image: /images/bobmetz.jpg
+      - title: Ortenausieger und Best of Breed CACIB Offenburg 
+        content: 15.03.2025
+        url: /images/boboffenburg.jpg
+        image: /images/boboffenburg.jpg
   # projects
   projects:
     enable: false
