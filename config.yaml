@@ -234,6 +234,10 @@ params:
         content: 15.03.2025
         url: /images/boboffenburg.jpg
         image: /images/boboffenburg.jpg
+      - title: Schweizer Schönheits-Champion
+        content: 28.06.2025
+        url: /images/swiss_beauty_champion.jpg
+        image: /images/swiss_beauty_champion.jpg
   # projects
   projects:
     enable: false
