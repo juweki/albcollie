@@ -174,14 +174,24 @@ params:
           enable: true
           name: "Vollständiges Profil auf smooth-collie.net"
           url: "https://www.smooth-collie.net/view.php?id=24621"
-      - title: "Nachzucht"
+      - title: "Nachzucht 2024"
         content: |-
           Zuchtstätte: Bumblebee Mountains\
+          Wurftag: 12.09.2024\
           Mutter: Bumblebee Mountains Florence le tourbillon "Floh"
         featuredLink:
           enable: true
-          name: "Zuchtstätte: Bumblebee Mountains"
-          url: "https://sheltieseite.de/"
+          name: "Profil auf smooth-collie.net"
+          url: "https://www.smooth-collie.net/view_litter.php?id=7784"
+      - title: "Nachzucht 2025"
+        content: |-
+          Zuchtstätte: Bumblebee Mountains\
+          Wurftag: 26.05.2025\
+          Mutter: Bumblebee Mountains Florence le tourbillon "Floh"
+        featuredLink:
+          enable: true
+          name: "Profil auf smooth-collie.net"
+          url: "https://www.smooth-collie.net/view_litter.php?id=7829"
       # - title: "Beschäftigung"
       #   content: |-
       #     Extra beschreibung
@@ -222,7 +232,7 @@ params:
         content: 24.08.2024
         url: /images/bob_luzern.jpg
         image: /images/bob_luzern.jpg
-      - title: Rally Obedience Beginner Vorzüglich mit 95 Punkten
+      - title: Rally Obedience Beginner Vorzüglich
         content: 20.10.2024
         url: /images/robeg.jpg
         image: /images/robeg.jpg
@@ -234,6 +244,10 @@ params:
         content: 15.03.2025
         url: /images/boboffenburg.jpg
         image: /images/boboffenburg.jpg
+      - title: Rally Obedience Klasse 1 Vorzüglich
+        content: 25.05.2025
+        url: /images/rokl1.jpg
+        image: /images/rokl1.jpg
       - title: Schweizer Schönheits-Champion
         content: 28.06.2025
         url: /images/swiss_beauty_champion.jpg
